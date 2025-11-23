@@ -54,7 +54,7 @@ public class OrdenamientoQuickSort {
             System.out.println("El archivo contiene valores no numéricos.");
             System.exit(1);
         }
-        
+return numeros.stream().mapToInt(i -> i).toArray();
 
     }
 
