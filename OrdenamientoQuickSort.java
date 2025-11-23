@@ -57,13 +57,6 @@ public class OrdenamientoQuickSort {
 return numeros.stream().mapToInt(i -> i).toArray();
 
     }
-public static void guardarArchivo(String nombreArchivo, int[] datos) {
-        try (FileWriter fw = new FileWriter(nombreArchivo)) {
-            for (int num : datos) {
-                fw.write(num + " ");
-
-
-    
 
     public static void main(String[] args) {
         String archivoEntrada = "numeros.txt";
