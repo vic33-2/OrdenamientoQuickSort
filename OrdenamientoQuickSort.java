@@ -59,7 +59,7 @@ return numeros.stream().mapToInt(i -> i).toArray();
     }
 public static void guardarArchivo(String nombreArchivo, int[] datos) {
         try (FileWriter fw = new FileWriter(nombreArchivo)) {
-            for (int num : datoos) {
+            for (int num : datos) {
                 fw.write(num + " ");
 
 
